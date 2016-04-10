@@ -19,7 +19,7 @@ class FormServiceProvider extends ServiceProvider
         require __DIR__ .'/Http/routes.php';
 
         //define the path for the view filesize
-        $this->loadViewsFrom(__DIR__ . '../views', 'formbuilder');
+        $this->loadViewsFrom(__DIR__ . '/views/', 'formbuilder');
 
         //define the files which are going to be published
         $this->publishes([

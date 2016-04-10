@@ -12,6 +12,6 @@ class FormController extends Controller
 
     public function getFormBuilder()
     {
-        return view('formbuilder::formbuilder-home');
+        return View('formbuilder::formbuilder_home');
     }
 }
