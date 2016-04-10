@@ -1,0 +1,13 @@
+{
+    "name": "arthur/formbuilder",
+    "description": "Composer package for dynamic form building in Laravel 5.2 framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arturs Logins",
+            "email": "arturs.logins@esynergy.lv"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
