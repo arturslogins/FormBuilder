@@ -14,4 +14,17 @@ class FormController extends Controller
     {
         return View('formbuilder::formbuilder_home');
     }
+
+    public function getFileContents()
+    {
+        return style.css;
+    }
 }
+
+// class StyleController extends Controller
+// {
+//     public function getFileContents()
+//     {
+//         return Formbuilder/assets/css/style.css;
+//     }
+// }

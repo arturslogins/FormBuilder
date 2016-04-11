@@ -23,6 +23,7 @@ class FormServiceProvider extends ServiceProvider
 
         //define the files which are going to be published
         $this->publishes([
+            //__DIR__.'/path/to/assets' => public_path('vendor/courier'),
             __DIR__. '/migrations/2016_04_9_000000_create_formbuilder_table.php' => base_path('database/migrations/2016_04_9_000000_create_formbuilder_table.php'),
         ]);
     }
